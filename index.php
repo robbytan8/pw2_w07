@@ -49,9 +49,12 @@ if (!isset($_SESSION['approved_user'])) {
                     case 'ucategory':
                         include_once './categoryu.php';
                         break;
-//                    case 'book':
-//                        include_once './book.php';
-//                        break;
+                    case 'book':
+                        include_once './book.php';
+                        break;
+                    case 'ubook':
+                        include_once './booku.php';
+                        break;
                     case 'logout':
                         $_SESSION['approved_user'] = FALSE;
                         $_SESSION['user_name'] = '';

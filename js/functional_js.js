@@ -14,3 +14,7 @@ function sendToDelete(id) {
         window.location = "?navito=category&c=rem&tod=" + id;
     }
 }
+
+function bookUpdate(isbn) {
+    window.location = "?navito=ubook&c=udt&tod=" + isbn;
+}
